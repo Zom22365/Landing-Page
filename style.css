@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    background-color:#1F2937 ;
+}
+
+.nav{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+#logo h2{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.list__items{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.item{
+    margin: 0px 15px;
+    list-style: none;
+}
+
+.item a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:#1F2937 ;
+    padding: 100px 40px 120px;
+}
+
+.banner__info , .banner__img{
+    width: 36%;
+}
+
+.banner__info{
+   padding-right: 70px;
+}
+
+.banner__title{
+    font-size: 48px;
+    line-height: 56px;
+    color: #F9FAF8;
+}
+
+.banner__des{
+    font-size: 18px;
+    line-height: 24px;
+    color: #E5E7EB;
+}
+
+.banner__img{
+    background-color:#6d747d;
+    text-align: center;
+    padding-top: 110px;
+    color: #F9FAF8;
+}
+
+.btn{
+    padding: 5px 24px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.btn__signup{
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+.title__product{
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    margin: 32px 0px;
+}
+
+.block__products{
+    width: 60%;
+    margin: auto;
+}
+
+.list__products{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.product{
+    list-style: none;
+    text-align: center;
+    margin: 20px 24px;
+}
+
+.product__img{
+    border: 4px solid #3882F6;
+    height: 175px;
+    border-radius: 20px;
+}
+.des{
+    padding-top: 7px;
+    font-size: 20px;
+    color: #1F2937;
+}
+
+.contact{
+    background-color: #E5E7EB;
+    padding: 100px 0px;
+    
+}
+
+.contact__block{
+    width: 55%;
+    margin: auto;
+}
+
+.contact__info{
+    display: block;
+  
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+ 
+}
+
+.auther{
+   /* padding-top: 10px; */
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    float: right;
+   margin-right: 20px;
+}
+
+.signup{
+    width: 60%;
+    margin: 100px auto;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.singup__info{
+    padding: 40px 50px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.singup__info p{
+    font-weight: 100;
+}
+
+.button{
+    padding: 40px 50px;
+}
+
+.btn__sign{
+   border:2px solid #fff;
+   color: #fff;
+   background-color: #3882F6;
+}
+
+footer{
+    background-color: #1F2937;
+    padding: 32px 0px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+}
